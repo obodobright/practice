@@ -1,0 +1,94 @@
+            * {
+                margin: 0;
+                padding: 0
+            }
+            
+            body {
+                font-family: Arial, Helvetica, sans-serif
+            }
+            
+            header {
+                padding: 0.586em;
+                color: rgb(61, 59, 59);
+                font-size: 2Rrem;
+            }
+            
+            h2 {
+                float: left
+            }
+            
+            span {
+                color: rgb(44, 228, 44);
+            }
+            
+            code {
+                color: rgb(70, 66, 66);
+                font-family: 'Arial black';
+            }
+            
+            header p {
+                background: rgb(44, 228, 44);
+                color: white;
+                float: right;
+                padding: 20px
+            }
+            
+            nav ul {
+                background: rgb(70, 66, 66);
+            }
+            
+            nav ul li a {
+                color: whitesmoke
+            }
+            
+            nav ul li a:hover,
+            nav ul li a:visited,
+            nav ul li a:active {
+                background: rgb(44, 228, 44);
+                color: whitesmoke;
+                border-radius: 0.4em;
+            }
+            
+            #active {
+                background: rgb(44, 228, 44);
+                border-radius: 0.4em;
+            }
+            
+            main {
+                margin-top: 4em;
+                margin-left: 2em;
+                margin-right: 2em;
+            }
+            
+            main p {
+                background: rgb(44, 228, 44);
+                color: whitesmoke
+            }
+            
+            div#sub-main {
+                margin-right: 0;
+                margin-top: 0.7em;
+                padding: 1.2em 2em;
+                background: rgb(171, 233, 171);
+                font-weight: medium
+            }
+            
+            div.main-body {
+                margin-left: 1em;
+                margin-top: 1.7em
+            }
+            
+            p.topspace {
+                margin-top: 1.5em
+            }
+            
+            .span-span {
+                color: red;
+                background: whitesmoke;
+            }
+            
+            div.main-example {
+                background: rgb(236, 229, 229);
+                padding-top: 1.5em;
+                padding-left: 1em
+            }
